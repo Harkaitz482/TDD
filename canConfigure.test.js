@@ -1,5 +1,5 @@
 import { describe,expect,it } from "vitest";
-import { canConfigure } from "../src/canConfigure";
+import { canConfigure } from "./src/Canconfigure";
 
  describe('can-configure',()=>{
    
