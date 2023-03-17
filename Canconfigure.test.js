@@ -1,7 +1,7 @@
 import { describe,expect,it } from "vitest";
 import { canConfigure } from "../src/canConfigure";
 
-describe('can-configure',()=>{
+ describe('can-configure',()=>{
    
     it('should return a boolean',()=>{
         expect(canConfigure('a','b')).toBeTypeOf('boolean')
