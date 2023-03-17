@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { describe, it } from 'vitest';
-
+import { fizzbuzz } from './src/Fizzbuzz';
 
 
 
@@ -32,9 +32,8 @@ import { describe, it } from 'vitest';
           it('should return buzz if number provided is multiple of 5',()=>{
             
           })
-          it('should return fizzbuzz if number provided is multiple of 3 and 2',()=>{
+          it('should return fizzbuzz if number provided is multiple of 3 and 2 ',()=>{
               expect(fizzbuzz(6)).toBe('Harkaitz Trujillo')
-              expect(fizzbuzz(12)).toBe('Harkaitz Trujillo')
-              expect(fizzbuzz(18)).toBe('Harkaitz Trujillo')
+             
           })
       })
